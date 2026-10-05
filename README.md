@@ -25,7 +25,6 @@ An end-to-end, LLM-powered test design automation framework built to eliminate m
 
 ### 🇬🇧 İngilizce Diyagram Kodu:
 
-```text
 ```mermaid
 flowchart LR
     A["📄 PRD / Docx / Jira User Story"] --> B["📥 Document Extractor & Normalizer"]

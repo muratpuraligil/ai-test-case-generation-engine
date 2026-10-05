@@ -39,7 +39,7 @@ a sample screenshot from the output:
 
 * **100% Acceptance Criteria Traceability:** Eliminates LLM summarization bias by enforcing strict 1:1 test case mapping against every defined Acceptance Criteria (AC-01 through AC-10+) with zero blindspots.
 * **Deterministic Contract Enforcement:** Guarantees strict JSON schema outputs, eliminating markdown fence formatting hallucinations.
-* **Client-Side Zero-Dependency Export:** Generates instant UTF-8 BOM encoded CSV/Excel files via browser memory (Base64 Data URI), bypassing cloud storage permission hurdles and character encoding corruptions.
+* **Client-Side Export & Enterprise TMS Readiness:** Generates instant UTF-8 BOM encoded CSV files directly in browser memory (Base64 Data URI), bypassing cloud storage permissions. Beyond standard spreadsheet viewing, the data schema is pre-normalized for direct bulk import into enterprise Test Management Systems (TMS) such as Jira Xray, Zephyr, and TestRail.
 * **Localization-Aware BDD:** Preserves native domain language (e.g., Turkish financial terminology) while maintaining standardized international Gherkin syntax.
 
 [TR]
@@ -84,5 +84,5 @@ flowchart LR
 
 * **%100 Kabul Kriteri İzlenebilirliği:** Tanımlanan her bir Kabul Kriterine (AC-01'den AC-10+'a kadar) birebir karşılık gelen müstakil bir test senaryosu üreterek LLM'lerin özetleme zaafını ve test kör noktalarını tamamen ortadan kaldırır.
 * **Deterministik Şema Güvencesi:** Katı JSON şeması kurallarıyla Markdown blok kirliliğini ve format halüsinasyonlarını engeller.
-* **İstemci Taraflı Sıfır Bağımlılıklı Dışa Aktarım:** Bulut depolama izinlerine ve 403 yetki kısıtlamalarına takılmadan, doğrudan tarayıcı belleği (Base64 Data URI) üzerinden UTF-8 BOM destekli ve Excel ile doğrudan uyumlu CSV dosyaları üretir.
+* **İstemci Taraflı Dışa Aktarım & Kurumsal TMS Uyumluluğu:** Bulut depolama izinlerine ve yetki kısıtlarına takılmadan, doğrudan tarayıcı belleği (Base64 Data URI) üzerinden UTF-8 BOM destekli CSV üretir. Üretilen veri şeması; salt bir Excel tablosu olmanın ötesinde, Jira Xray, Zephyr, TestRail gibi kurumsal test yönetim araçlarına (TMS) doğrudan toplu içe aktarım (Bulk Import) yapmaya hazır normalize formatta sunulur.
 * **Yerelleştirme Uyumlu BDD:** Türkçe iş ve bankacılık terminolojisini korurken, uluslararası standart Given-When-Then Gherkin sentaksını eksiksiz muhafaza eder.

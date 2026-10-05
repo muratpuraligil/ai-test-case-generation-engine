@@ -20,16 +20,22 @@ An end-to-end, LLM-powered test design automation framework built to eliminate m
 
 ## 🏗️ System Architecture & Workflow
 
+
+---
+
+### 🇬🇧 İngilizce Diyagram Kodu:
+
+```text
 ```mermaid
 flowchart LR
-    A[📄 PRD / Docx / Jira User Story] --> B[📥 Document Extractor & Normalizer]
-    B --> C[🌐 Language & Context Detector]
-    C --> D[🤖 Test Case Generator (100% AC Traceability)]
-    D --> E{🛡️ Output Parser & Validator}
-    E -- Retry / Fix --> D
-    E -- Passed --> F[📊 Multi-Format Exporter]
-    F --> G[📥 Excel / CSV Instant Download]
-    F --> H[☁️ Xray / Jira API Sync]
+    A["📄 PRD / Docx / Jira User Story"] --> B["📥 Document Extractor & Normalizer"]
+    B --> C["🌐 Language & Context Detector"]
+    C --> D["🤖 Test Case Generator (100% AC Traceability)"]
+    D --> E{"🛡️ Output Parser & Validator"}
+    E -- "Retry / Fix" --> D
+    E -- "Passed" --> F["📊 Multi-Format Exporter"]
+    F --> G["📥 Excel / CSV Instant Download"]
+    F --> H["☁️ Xray / Jira API Sync"]
 ```
 
 a sample screenshot from the output:
@@ -67,14 +73,14 @@ Manuel test senaryosu hazırlığındaki iş yükünü ve süreç tıkanıklıkl
 
 ```mermaid
 flowchart LR
-    A[📄 PRD / Docx / Jira User Story] --> B[📥 Doküman Çözümleme ve Normalizasyon]
-    B --> C[🌐 Dil ve Bağlam Algılama]
-    C --> D[🤖 Test Case Üretici (%100 AC İzlenebilirliği)]
-    D --> E{🛡️ Çıktı Ayrıştırıcı ve Doğrulayıcı}
-    E -- Yeniden Dene / Düzelt --> D
-    E -- Başarılı --> F[📊 Çoklu Format Dışa Aktarıcı]
-    F --> G[📥 Tek Tıkla Excel / CSV İndirme]
-    F --> H[☁️ Xray / Jira API Senkronizasyonu]
+    A["📄 PRD / Docx / Jira User Story"] --> B["📥 Doküman Çözümleme ve Normalizasyon"]
+    B --> C["🌐 Dil ve Bağlam Algılama"]
+    C --> D["🤖 Test Case Üretici (%100 AC İzlenebilirliği)"]
+    D --> E{"🛡️ Çıktı Ayrıştırıcı ve Doğrulayıcı"}
+    E -- "Yeniden Dene / Düzelt" --> D
+    E -- "Başarılı" --> F["📊 Çoklu Format Dışa Aktarıcı"]
+    F --> G["📥 Tek Tıkla Excel / CSV İndirme"]
+    F --> H["☁️ Xray / Jira API Senkronizasyonu"]
 ```
 
 Çıktıdan örnek bir ekran görüntüsü:

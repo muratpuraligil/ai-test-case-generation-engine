@@ -27,7 +27,7 @@ flowchart LR
     E -- Failed --> D
     E -- Passed --> F[Formatter & Exporter]
     F --> G[(Xray / Jira API Sync)]
-    F --> H[Postman / Cypress Collections]
+    F --> H[Postman / Cypress Collections]```
 
 a sample screenshot from the output:
 <img width="1341" height="681" alt="image" src="https://github.com/user-attachments/assets/33792992-06cd-490e-982f-ac3abc3eb475" />

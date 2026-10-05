@@ -31,6 +31,7 @@ flowchart LR
     F --> G[📥 Excel / CSV Instant Download]
     F --> H[☁️ Xray / Jira API Sync]
 ```
+
 a sample screenshot from the output:
 <img width="1341" height="681" alt="image" src="https://github.com/user-attachments/assets/33792992-06cd-490e-982f-ac3abc3eb475" />
 
@@ -74,6 +75,7 @@ flowchart LR
     E -- Başarılı --> F[📊 Çoklu Format Dışa Aktarıcı]
     F --> G[📥 Tek Tıkla Excel / CSV İndirme]
     F --> H[☁️ Xray / Jira API Senkronizasyonu]
+```
 
 Çıktıdan örnek bir ekran görüntüsü:
 <img width="1341" height="681" alt="image" src="https://github.com/user-attachments/assets/33792992-06cd-490e-982f-ac3abc3eb475" />

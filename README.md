@@ -33,7 +33,7 @@ flowchart LR
 ```
 
 a sample screenshot from the output:
-<img width="1341" height="681" alt="image" src="https://github.com/user-attachments/assets/33792992-06cd-490e-982f-ac3abc3eb475" />
+<img width="1806" height="807" alt="image" src="https://github.com/user-attachments/assets/fa8aa627-85da-4ea8-bf5c-8508d53522ca" />
 
 ### 💡 Key Architectural Highlights
 
@@ -78,7 +78,7 @@ flowchart LR
 ```
 
 Çıktıdan örnek bir ekran görüntüsü:
-<img width="1341" height="681" alt="image" src="https://github.com/user-attachments/assets/33792992-06cd-490e-982f-ac3abc3eb475" />
+<img width="1806" height="807" alt="image" src="https://github.com/user-attachments/assets/68b80514-0ce2-4395-a4de-0894e5819be7" />
 
 ### 💡 Öne Çıkan Mimari Özellikler
 
